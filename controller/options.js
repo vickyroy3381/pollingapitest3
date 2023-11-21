@@ -10,7 +10,7 @@ module.exports.createOptions = async (req, res) => {
       text,
     });
 
-    option.link_to_vote = `https://pollingapi-vsfc.onrender.com/options/${option._id}/add_vote`;
+    option.link_to_vote = `https://navjot-pollapi.onrender.com/options/${option._id}/add_vote`;
     option.save();
 
     const { id } = req.params;
