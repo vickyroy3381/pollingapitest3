@@ -21,8 +21,4 @@ It is for creating a Question and Adding different options to it which can be vo
         navjot-pollapi.onrender.com/questions/:id/delete
 
 ### API to View a question with it’s options and all the votes given to it: 
-        pollingapi-vsfc.onrender.com/questions/:id
-        
-        
-
-
+        navjot-pollapi.onrender.com/questions/:id
