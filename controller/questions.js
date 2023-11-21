@@ -15,7 +15,7 @@ module.exports.createQuestions = async (req, res) => {
     });
   } catch (error) {
     return res.status(500).json({
-      message: "Something Went Wrong",
+      message: "getting error while creating question",
       data: {
         error,
       },
@@ -64,7 +64,7 @@ module.exports.deleteQuestion = async (req, res) => {
     }
     if (isVoted) {
       return res.status(200).json({
-        message: "It is Voted So we can't delete it!",
+        message: "It is alraedy Voted So we can't delete it!",
         data: {
           question,
         },
@@ -79,7 +79,7 @@ module.exports.deleteQuestion = async (req, res) => {
     });
   } catch (error) {
     return res.status(500).json({
-      message: "Something Went Wrong",
+      message: "getting error while deleting the question",
       data: {
         error,
       },
