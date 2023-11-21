@@ -1,7 +1,7 @@
 {
   "name": "pollingapi",
   "version": "1.0.0",
-  "description": "This is An API for polling of Teachers.",
+  "description": "This is an open  polling API for all users",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
